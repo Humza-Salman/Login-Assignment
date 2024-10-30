@@ -1,20 +1,22 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background: url(https://www.shutterstock.com/image-photo/city-square-skyline-modern-buildings-260nw-2381315907.jpg);
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(2px);
     background-repeat: no-repeat;
     background-size: cover;
-    height:100vh;
+    height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.form-container{
+
+.form-container {
     /* background-color: rgb(0, 0,0, 0.8); */
     height: 95vh;
     width: 80vw;
@@ -23,46 +25,56 @@ body{
     align-items: center;
     gap: 20px;
 }
-.first-form-container{
-    background-color: rgb(0, 0,0, 0.5);
-    height: 50vh;
-    width: 30vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.first-form-container {
+    background-color: rgb(0, 0, 0, 0.7);
+    height: 80vh;
+    width: 35vw;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    place-content: center;
+    text-align: center;
     border-radius: 10px;
 }
-.login{
+
+.login {
     /* background-color: aqua; */
     height: 50vh;
     width: 35vw;
     text-align: center;
-    
+
 }
-.login h1{
-    color: black;
+
+.login h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
     margin: 5px;
     padding: 10px;
 }
-.login input{
+
+.login input {
     margin: 5px;
     padding: 13px;
     width: 25vw;
     border-radius: 10px;
     border: none;
 }
-.login-tag{
+
+.login-tag {
     margin: 5px;
     padding: 5px;
 }
-.login-tag a{
+
+.login-tag a {
     text-decoration: none;
     color: blue;
     margin: 10px;
     padding: 10px;
-    
+
 }
-.login-tag button{
+
+.login-tag button {
     margin: 10px;
     padding: 10px;
     width: 25vw;
@@ -72,16 +84,34 @@ body{
     font-size: 1.1rem;
     color: white;
 }
-.login-tag p{
-    color: black;
+
+.login-tag p {
+    color: white;
 }
 
-.second-form-container{
-    background-color: rgb(0, 0,0, 0.5);
-    height: 60vh;
-    width: 35vw;
-    display: flex;
+.icons{
+    margin-top: 70px;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    
+}
+
+.btnlogo {
+    margin: 5px;
+    width: 300px;
+}
+.btnlogo i{
+    margin: 5px;
+}
+
+.second-form-container {
+    background-color: rgb(0, 0, 0, 0.7);
+    height: 90vh;
+    width: 35vw;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    place-content: center;
+    text-align: center;
     border-radius: 10px;
 }
